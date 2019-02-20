@@ -23,7 +23,8 @@ def play
 end
 
 def list(songs)
-  puts ""
+  songs.each_with_index do |song|
+    puts 
   
 end
 
