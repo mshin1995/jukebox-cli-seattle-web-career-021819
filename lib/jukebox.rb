@@ -40,7 +40,8 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run(help)
+def run
+  help
   puts "Please enter a command:"
   user_response = gets.chomp
   case user_response
@@ -53,6 +54,6 @@ def run(help)
   when "exit"
     exit_jukebox
   else
-    run(help)
+    run
   end
 end
