@@ -43,5 +43,7 @@ end
 def run(help)
   puts "Please enter a command:"
   user_response = gets.chomp
+  if user_response = "list"
+    list
   
 end
