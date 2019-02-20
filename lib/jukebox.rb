@@ -21,6 +21,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.chomp
+  songs.each do 
   
 end
 
