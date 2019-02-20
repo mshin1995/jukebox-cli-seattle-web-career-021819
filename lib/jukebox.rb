@@ -53,6 +53,7 @@ def run(help)
   when "exit"
     exit_jukebox
   else
-    
+    run(help)
+end
   
 end
